@@ -1,0 +1,595 @@
+/*Font Integration*/
+@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500,500i');
+
+@font-face {
+    font-family: "untitled-font-2";
+    src:url("../fonts/untitled-font-2.eot");
+    src:url("../fonts/untitled-font-2d41d.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/untitled-font-2.woff") format("woff"),
+        url("../fonts/untitled-font-2.ttf") format("truetype"),
+        url("../fonts/untitled-font-2.svg#untitled-font-2") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+[data-icon]:before {
+    font-family: "untitled-font-2" !important;
+    content: attr(data-icon);
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-variant: normal !important;
+    text-transform: none !important;
+    speak: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+    font-family: "untitled-font-2" !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-variant: normal !important;
+    text-transform: none !important;
+    speak: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.service-vehicle-wrap .select-wrap::after {
+    top: 1em;
+}
+.icon-icn-collection-address:before {
+    content: "\61";
+}
+.icon-icn-date:before {
+    content: "\62";
+}
+.icon-icn-description:before {
+    content: "\63";
+}
+.icon-icn-destination-address:before {
+    content: "\64";
+}
+.icon-icn-down-arrow:before {
+    content: "\65";
+}
+.icon-icn-email:before {
+    content: "\66";
+}
+.icon-icn-name:before {
+    content: "\67";
+}
+.icon-icn-phone-number:before {
+    content: "\68";
+}
+.icon-icn-service:before {
+    content: "\69";
+}
+.icon-icn-time:before {
+    content: "\6a";
+}
+.icon-icn-vehicle:before {
+    content: "\6b";
+}
+/*my booking styles */
+
+.tq-form div.contact_details table td:nth-child(1) {
+   width: 10em !important;
+}
+
+.tq-form div.my-booking table tr td:nth-child(1) {
+   width: 30em !important;
+}
+form.tq-form table tr td,
+form.tq-form table tr th {
+    padding: 0.5em;
+    text-align: left !important;
+}
+
+.tq-form table.route-details-table th{
+    padding-bottom: 1em;
+}
+.my-booking table {
+    border: solid  1px #333;
+    border-collapse: collapse;
+    margin: 1em;
+}
+.my-booking table td,
+.my-booking table th {
+    border: solid  1px #333;
+    padding: 0.5em;
+}
+.tq-form i.icon {
+    width: auto;
+    height: auto;
+    line-height: auto;
+    margin-left: auto;
+}
+.tq-form .datepicker {
+    left: auto;
+    position: relative;
+    opacity: 1;
+    z-index: 0;    
+}
+
+.tq-form .date-wrap{
+    clear: left;
+}
+
+.tq-form .remove-address{
+    display: inline-block;
+    margin-left: 1em;
+    margin-top: 2em;
+    font-size: 0.75em;
+}
+
+/*Font Integration*/
+.transit_main {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    float: left;
+    width: 100%;
+}
+.transit_main h2 {
+    font-size: 1.5em;
+    font-weight: 700;
+    padding: 1.75% 2%;
+    margin: 0;
+}
+.tq-form .transit_header h2:before{
+    content:none
+}
+
+.transit_main h3 {
+    font-weight: 700;
+    font-size: 48px;
+    margin: 30px 0;
+}
+
+.transit_main h3 span {
+    font-size: 48px !important;
+    margin: 30px 0 !important;
+}
+
+/* quote breakdown table*/
+.quote-breakdown {
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 1em;
+};
+.quote-breakdown form.tq-form table tr td, form.tq-form table tr td,
+.quote-breakdown form.tq-form table tr td, form.tq-form table tr th {
+    text-align: right;
+}
+
+.transit_inner.cost .transit_body {text-align: center; padding: 80px 10px;}
+.transit_inner.cost span {
+    font-weight: 700;
+    font-size: 20px;
+    margin: 0;
+}
+.transit_inner.cost .transit_body  ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.tq-form .picker__holder ul,
+.entry-content .tq-form .picker__holder ul{
+    list-style: none;
+    list-style-type: none;
+}
+.transit_inner.cost .transit_body  ul li {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 0 20px;
+    position: relative;
+}
+
+.transit_inner.cost .transit_body ul li span {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 500;
+    position: relative;
+}
+.transit_inner.cost .transit_body  ul li:after {
+    position: absolute;
+    content: "";
+    right: 0%;
+    top: 50%;
+    width: 2px;
+    height: 20px;
+    background: #d6d6d6;
+    margin-top: -10px;
+}
+.transit_inner.cost .transit_body  ul li:last-child:after {display: none;}
+.transit_header{
+}
+.transit_inner {
+    border: 1px solid #ededed;
+    float: left;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.tq-form .add-waypoint {
+    clear: left;    
+    display: inline-block;
+    float: left;
+}
+
+.tq-form input.addresspicker {
+    position: relative;
+    z-index: 1;
+}
+.transit_body {
+    padding: 1% 2%;
+    float: left;
+    width: 100%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+.transit_body .sub_title {
+    font-size: 1em;
+    display: block;
+    margin: 1% 0 1% 0;
+    float: left;
+    clear: left;    
+}
+.transit_body .sub_title i,
+ .transit_body .date-wrap i{
+    margin-right: 12px;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 28px;
+}
+.transit_noadress {
+    display: inline-block;
+    text-align: right;
+    font-weight: 500;
+    float: right;
+    margin-top: 0;
+}
+.transit_noadress a {
+    text-decoration: none;
+}
+.transit_main input[type="text"],
+.transit_main input[type="number"],
+.transit_main select,
+.transit_main textarea
+{
+    color: #000;
+    line-height: 1.4;
+    display: block;
+    width: 100%;
+    background: #fff;
+    height: 60px;
+    border: none;
+    box-shadow: 0px 1px 4px 1px rgba(86,86,86,0.12);    
+    box-sizing: border-box;
+    padding-left: 2%;
+    font-size:18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    margin-left: 0;
+    margin-top: 0 !important; 
+}
+.transit_main select {
+}
+.tq-form .select-desc {
+    clear: left;
+}
+.tq-form .select-desc p{
+    font-size: 0.75em;
+}
+.transit_main textarea {min-height: 160px; padding-top: 25px;}
+.transit_main input::-webkit-input-placeholder { 
+}
+.radio_main_wrap {
+    width: 100%;
+    float: left;
+    margin-top: 1.5em;
+}
+.redio_left {
+    width: 49%;
+    float: left;
+    margin-right: 2%;
+}
+.radio-group-label {
+    float: left;
+    width: 100%;
+}
+p.radio-group-label {
+    font-size: 12px;    
+    margin-bottom: 0;
+    margin-top: 0.25em;    
+}
+.radio-label {
+    display: block;
+    position: relative;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid;
+    font-size: 14px;
+    height: 50px;
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 3em;
+    line-height: 1em;
+    padding-top: 0.5em;
+    vertical-align: middle;
+}
+form.tq-form div.radio-label.deliver-return{
+    min-width: 10.5em;
+}
+form.tq-form div.radio-label label{
+}
+
+.tq-form  .radio-label.double-height {
+    padding-top: 0.25em;
+}
+.radio-placeholder {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+.radio-label input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+}
+.checkmark {
+    position: absolute;
+    top: 15px;
+    left: 10px;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+.radio-label .checkmark:after {
+    top: 5px;
+    left: 5px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #fff;
+}
+.radio-label input:checked ~ .checkmark:after {
+    display: block;
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+.radio-label input:checked ~ .checkmark {
+    border-width: 4px;
+}
+.tq-form input[type="radio"] {
+    width: auto;
+    height: auto;
+    box-shadow: none;
+    background: transparent;
+    padding-left: 0;
+    display: inline-block;
+    margin: 0;
+    margin-right: 5px;
+    line-height: 1.4;
+    display: block;
+    width: 100%;
+    background: #fff;
+    height: 50px;
+    border: none;
+    box-sizing: border-box;
+    padding-left: 2%;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    border: 1px solid;
+    z-index: 100;
+}
+
+label.radio-label {
+    margin-right: 10px;
+    border: none;
+    padding-left: 0;
+}
+
+input:focus, select, textarea{ outline: none;}
+
+.bt-flabels__wrapper {
+    margin-bottom: 1.75%;
+}
+.tq-form .search-fields,
+.tq-form .delivery-fields {
+    clear: left;
+}
+.full {
+    margin-bottom: 1.75%;
+    width: 100%;
+    float: left;
+}
+.half {
+    width: 49%;
+    float: left;
+}
+ .left {
+    float: left;
+    box-sizing: border-box;
+}
+.right {
+    float: right;
+}
+.half-field {
+    width: 49%;
+    box-sizing: border-box;
+}
+
+.map img {width: 100%;}
+.half .left .sub_title,
+.half .right .sub_title
+{margin-bottom: 25px;}
+.map {
+    border:none !important;
+    margin-top: 10px;
+    float: left;
+    width: 100%;
+    padding-bottom: 30px;
+}
+.map iframe {width: 100%;}
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    background-size: 15px 15px;
+}
+.btn_wrap{
+    text-align: right;
+    float: left;
+    width: 100%;
+}
+.btn_wrap input[type="submit"], .btn_wrap button {
+    font-weight: 700;
+    background: #3e80fa;
+    width: 225px;
+    text-align: center;
+    padding: 22px 0;
+    margin-right: 30px;
+    border-radius: 50px;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 5%;
+    height: auto;
+    box-shadow: none;
+    border: none;
+    cursor: pointer;
+}
+.btn_wrap a:last-child{margin-right:2%;}
+.destination_wrap_sub, .destination_wrap {float: left; width: 100%;}
+.destination_title_wrap .sub_title   {
+    width: 260px;
+    display: inline-block;
+    float: none;
+}
+.destination_title_wrap a {
+    cursor: pointer;
+}
+.destination_title_wrap a.destination_first {
+    font-size: 18px;
+    font-weight:500;
+}
+.destination_title_wrap a.destination_remove {
+    font-size: 18px;
+    font-weight:500;
+}
+.destination_title_wrap .sub_title i {margin-right: 16px;}
+.select-wrap,
+.coll_date_wrap,
+.coll_time_wrap { 
+    position: relative; 
+    float: left; 
+    width: 100%;
+}
+.select-wrap {
+    margin-top: 0.5em;
+}
+.date-wrap label {
+    display: inline-block;
+    margin: 0.25em 0em 0.5em;
+}
+.coll_date_wrap {width: 49%; }
+.coll_date_wrap .left {width: 100%;}
+.coll_time_wrap {float: right; width: 49%;}
+.coll_time_wrap .right{width: 100%;}
+.select-wrap:after,
+.coll_date_wrap:after,
+.coll_time_wrap:after{
+    content: "\65";
+    position: absolute;
+    background-repeat: no-repeat;
+    right: 20px;
+    top: 3em;
+    font-family: "untitled-font-2" !important;
+    font-style: normal !important;
+    font-size: 21px;
+    font-weight: normal;
+}
+.coll_date_wrap:after {content: "\62";}
+.coll_time_wrap:after {content: "\6a";}
+
+.transit_inner.cost .transit_body ul li.hidden{
+    display: none;
+}
+.payment-result {
+    text-align: center;
+}
+.on-delivery{
+    font-size: 24px;
+    line-height: 2em;
+}
+/* woocommerce overrides */
+#add_payment_method #payment ul.payment_methods li img, .woocommerce-cart #payment ul.payment_methods li img, .woocommerce-checkout #payment ul.payment_methods li img{    width: 4em;
+}
+
+/*Media query start*/
+@media screen and (max-width:991px){
+    .half .left .sub_title, .half .right .sub_title {margin-bottom: 5px; margin-top: 20px;}
+}
+@media screen and (max-width:767px) {
+    .transit_main h2 {font-size: 1.2em;}
+    .transit_noadress {font-size: 1em; text-align: left;margin-bottom: 2%;display: block;
+    clear: left;}
+    .half .left {width: 100%;margin-bottom: 1.75%;}
+    .half .right {width: 100%;float: left;}
+    .destination_title_wrap .sub_title {margin-top: 3%; display: block;}
+    .transit_main h3 {margin: 10px 0;}
+    .half, .full, .half .left {margin-bottom: 0px;}
+    .transit_main input, .transit_main select, .transit_main textarea {margin-bottom: 2% !important;font-size: 15px; height: 45px; padding-left: 3%;}
+    .destination_title_wrap a.destination_first {display: block; margin-bottom: 2%;}
+    .btn_wrap input[type="submit"] {display: block; margin: 0 auto 3% !important;}
+    .transit_main textarea {margin-bottom: 0 !important;}
+    .btn_wrap input[type="submit"] {padding: 18px 0;}
+    .transit_main h2 { padding-top: 3%;padding-bottom: 5%;}
+    .destination_title_wrap a.destination_remove {margin-bottom: 2%; display: block;}
+    .transit_inner.cost .transit_body {padding: 20px 0;}
+    .transit_main h3 {font-size: 42px;}
+    .transit_inner.cost .transit_body ul li:after {display: none;}
+    .transit_main h2 {padding-left: 4%;}
+    .half .left .sub_title, .half .right .sub_title {margin-bottom: 5px; margin-top: 15px;} 
+    .transit_inner.contact .transit_body .sub_title {margin-top: 15px;}
+    .select-wrap:after{top: 11px;}
+    .coll_date_wrap:after, .coll_time_wrap:after {top: 10px;}
+    .coll_date_wrap { width: 100%;}
+    .coll_time_wrap { float: left; width: 100%;}  
+    .half {
+        width: 100%;
+    }
+    .transit_main input[type="text"],
+    .transit_main input[type="number"],
+    .transit_main select,
+    .transit_main textarea {
+        text-align: left !important;
+    }
+
+}
+/*Media query end*/
+
+.dateclass{
+    width:100%;
+}
+.dateclass.placeholderclass::before{
+    width:100%;
+    content:attr(placeholder);
+}
+
