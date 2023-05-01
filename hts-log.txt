@@ -1,49 +1,49 @@
-HTTrack3.49-2+htsswf+htsjava launched on Mon, 01 May 2023 13:02:17 at http://localhost/interlinklogistics.co.uk/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
-(winhttrack -qiC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://localhost/interlinklogistics.co.uk/ -O1 "C:\My Web Sites\Interlink New" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+HTTrack3.49-2+htsswf+htsjava launched on Sun, 30 Apr 2023 23:59:36 at http://localhost/interlinklogistics.co.uk/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qiC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://localhost/interlinklogistics.co.uk/ -O1 "C:\My Web Sites\Intelink Website" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
 
 Information, Warnings and Errors reported for this mirror:
 note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
 	such as username/password authentication for websites mirrored in this project
 	do not share these files/folders if you want these information to remain private
 
-13:03:58	Warning: 	Moved Permanently for localhost/interlinklogistics.co.uk/about/
-13:03:58	Warning: 	File has moved from localhost/interlinklogistics.co.uk/about/ to http://localhost/interlinklogistics.co.uk/about-us-same-day-courier-services/
-13:03:59	Warning: 	Retry after error -5 (Unable to get server's address: The requested name is valid, but no data of the ) at link https://stats.wp.com/s-202318.js (from localhost/interlinklogistics.co.uk/)
-13:03:59	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link stats.wp.com/w.js?ver=202318 (from localhost/interlinklogistics.co.uk/)
-13:05:05	Error: 	"Not Found" (404) at link localhost/interlinklogistics.co.uk/wp-content/plugins/wpforms/assets/css/frontend/images/times-solid-white.svg (from localhost/interlinklogistics.co.uk/wp-content/plugins/wpforms/assets/css/frontend/classic/wpforms-base.min.css?ver=1.8.1.2)
-13:05:31	Warning: 	Moved Permanently for localhost/interlinklogistics.co.uk/?p=9707
-13:05:31	Warning: 	File has moved from localhost/interlinklogistics.co.uk/?p=9707 to http://localhost/interlinklogistics.co.uk/same-day-delivery-courier/
-13:05:32	Warning: 	Moved Permanently for localhost/interlinklogistics.co.uk/?p=10409
-13:05:32	Warning: 	File has moved from localhost/interlinklogistics.co.uk/?p=10409 to http://localhost/interlinklogistics.co.uk/book-pay/
-13:05:36	Warning: 	Moved Permanently for localhost/interlinklogistics.co.uk/?p=21
-13:05:36	Warning: 	File has moved from localhost/interlinklogistics.co.uk/?p=21 to http://localhost/interlinklogistics.co.uk/get-a-quote/
-13:05:42	Warning: 	Moved Permanently for localhost/interlinklogistics.co.uk/?p=10184
-13:05:42	Warning: 	File has moved from localhost/interlinklogistics.co.uk/?p=10184 to http://localhost/interlinklogistics.co.uk/fleet/
-13:05:52	Warning: 	Moved Permanently for localhost/interlinklogistics.co.uk/?p=10182
-13:05:52	Warning: 	File has moved from localhost/interlinklogistics.co.uk/?p=10182 to http://localhost/interlinklogistics.co.uk/charges-2/
-13:05:56	Warning: 	Moved Permanently for localhost/interlinklogistics.co.uk/?p=9793
-13:05:56	Warning: 	File has moved from localhost/interlinklogistics.co.uk/?p=9793 to http://localhost/interlinklogistics.co.uk/terms-and-conditions/
-13:06:01	Warning: 	Moved Permanently for localhost/interlinklogistics.co.uk/?p=9773
-13:06:01	Warning: 	File has moved from localhost/interlinklogistics.co.uk/?p=9773 to http://localhost/interlinklogistics.co.uk/privacy-policy/
-13:06:04	Warning: 	Moved Permanently for localhost/interlinklogistics.co.uk/?p=9706
-13:06:04	Warning: 	File has moved from localhost/interlinklogistics.co.uk/?p=9706 to http://localhost/interlinklogistics.co.uk/about-us-same-day-courier-services/
-13:06:08	Warning: 	Moved Permanently for localhost/interlinklogistics.co.uk/?p=9708
-13:06:08	Warning: 	File has moved from localhost/interlinklogistics.co.uk/?p=9708 to http://localhost/interlinklogistics.co.uk/contact/
-13:06:12	Warning: 	Moved Permanently for localhost/interlinklogistics.co.uk/faq/
-13:06:12	Warning: 	File has moved from localhost/interlinklogistics.co.uk/faq/ to http://localhost/interlinklogistics.co.uk/faq-same-day-services/
-13:06:15	Warning: 	Moved Permanently for localhost/interlinklogistics.co.uk/?p=10604
-13:06:15	Warning: 	File has moved from localhost/interlinklogistics.co.uk/?p=10604 to http://localhost/interlinklogistics.co.uk/instant-quote/
-13:06:17	Warning: 	Moved Permanently for localhost/interlinklogistics.co.uk/?p=10319
-13:06:17	Warning: 	File has moved from localhost/interlinklogistics.co.uk/?p=10319 to http://localhost/interlinklogistics.co.uk/faq-same-day-services/
-13:06:18	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link https://stats.wp.com/s-202318.js (from localhost/interlinklogistics.co.uk/)
-13:06:18	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link stats.wp.com/w.js?ver=202318 (from localhost/interlinklogistics.co.uk/)
-13:06:25	Error: 	"Not Found" (404) at link localhost/interlinklogistics.co.uk/wp-content/plugins/transitquote-pro/public/css/images/ui-icons_777777_256x240.png (from localhost/interlinklogistics.co.uk/wp-content/plugins/transitquote-pro/public/css/jquery-ui.css?ver=4.5.2)
-13:06:27	Error: 	"Not Found" (404) at link localhost/interlinklogistics.co.uk/wp-content/plugins/transitquote-pro/public/css/images/ui-icons_555555_256x240.png (from localhost/interlinklogistics.co.uk/wp-content/plugins/transitquote-pro/public/css/jquery-ui.css?ver=4.5.2)
-13:06:28	Error: 	"Not Found" (404) at link localhost/interlinklogistics.co.uk/wp-content/plugins/transitquote-pro/public/css/images/ui-icons_ffffff_256x240.png (from localhost/interlinklogistics.co.uk/wp-content/plugins/transitquote-pro/public/css/jquery-ui.css?ver=4.5.2)
-13:06:28	Error: 	"Not Found" (404) at link localhost/interlinklogistics.co.uk/wp-content/plugins/transitquote-pro/public/css/images/ui-icons_777620_256x240.png (from localhost/interlinklogistics.co.uk/wp-content/plugins/transitquote-pro/public/css/jquery-ui.css?ver=4.5.2)
-13:06:29	Error: 	"Not Found" (404) at link localhost/interlinklogistics.co.uk/wp-content/plugins/transitquote-pro/public/css/images/ui-icons_cc0000_256x240.png (from localhost/interlinklogistics.co.uk/wp-content/plugins/transitquote-pro/public/css/jquery-ui.css?ver=4.5.2)
-13:06:29	Error: 	"Unable to get server's address: unknown error" (-5) after 2 retries at link https://stats.wp.com/s-202318.js (from localhost/interlinklogistics.co.uk/)
-13:06:29	Error: 	"Unable to get server's address: unknown error" (-5) after 2 retries at link stats.wp.com/w.js?ver=202318 (from localhost/interlinklogistics.co.uk/)
+00:02:31	Warning: 	Moved Permanently for localhost/interlinklogistics.co.uk/about/
+00:02:31	Warning: 	File has moved from localhost/interlinklogistics.co.uk/about/ to http://localhost/interlinklogistics.co.uk/about-us-same-day-courier-services/
+00:02:32	Warning: 	Retry after error -5 (Unable to get server's address: The requested name is valid, but no data of the ) at link https://stats.wp.com/s-202317.js (from localhost/interlinklogistics.co.uk/)
+00:02:32	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link stats.wp.com/w.js?ver=202317 (from localhost/interlinklogistics.co.uk/)
+00:03:19	Error: 	"Not Found" (404) at link localhost/interlinklogistics.co.uk/wp-content/plugins/wpforms/assets/css/frontend/images/times-solid-white.svg (from localhost/interlinklogistics.co.uk/wp-content/plugins/wpforms/assets/css/frontend/classic/wpforms-base.min.css?ver=1.8.1.2)
+00:04:03	Warning: 	Moved Permanently for localhost/interlinklogistics.co.uk/?p=9707
+00:04:03	Warning: 	File has moved from localhost/interlinklogistics.co.uk/?p=9707 to http://localhost/interlinklogistics.co.uk/same-day-delivery-courier/
+00:04:04	Warning: 	Moved Permanently for localhost/interlinklogistics.co.uk/?p=10409
+00:04:04	Warning: 	File has moved from localhost/interlinklogistics.co.uk/?p=10409 to http://localhost/interlinklogistics.co.uk/book-pay/
+00:04:31	Warning: 	Moved Permanently for localhost/interlinklogistics.co.uk/?p=21
+00:04:31	Warning: 	File has moved from localhost/interlinklogistics.co.uk/?p=21 to http://localhost/interlinklogistics.co.uk/get-a-quote/
+00:04:44	Warning: 	Moved Permanently for localhost/interlinklogistics.co.uk/?p=10184
+00:04:44	Warning: 	File has moved from localhost/interlinklogistics.co.uk/?p=10184 to http://localhost/interlinklogistics.co.uk/fleet/
+00:04:45	Warning: 	Moved Permanently for localhost/interlinklogistics.co.uk/?p=10182
+00:04:45	Warning: 	File has moved from localhost/interlinklogistics.co.uk/?p=10182 to http://localhost/interlinklogistics.co.uk/charges-2/
+00:04:45	Warning: 	Moved Permanently for localhost/interlinklogistics.co.uk/?p=9793
+00:04:45	Warning: 	File has moved from localhost/interlinklogistics.co.uk/?p=9793 to http://localhost/interlinklogistics.co.uk/terms-and-conditions/
+00:04:46	Warning: 	Moved Permanently for localhost/interlinklogistics.co.uk/?p=9773
+00:04:46	Warning: 	File has moved from localhost/interlinklogistics.co.uk/?p=9773 to http://localhost/interlinklogistics.co.uk/privacy-policy/
+00:04:47	Warning: 	Moved Permanently for localhost/interlinklogistics.co.uk/?p=9706
+00:04:47	Warning: 	File has moved from localhost/interlinklogistics.co.uk/?p=9706 to http://localhost/interlinklogistics.co.uk/about-us-same-day-courier-services/
+00:04:49	Warning: 	Moved Permanently for localhost/interlinklogistics.co.uk/?p=9708
+00:04:49	Warning: 	File has moved from localhost/interlinklogistics.co.uk/?p=9708 to http://localhost/interlinklogistics.co.uk/contact/
+00:04:49	Warning: 	Moved Permanently for localhost/interlinklogistics.co.uk/faq/
+00:04:49	Warning: 	File has moved from localhost/interlinklogistics.co.uk/faq/ to http://localhost/interlinklogistics.co.uk/faq-same-day-services/
+00:04:49	Warning: 	Moved Permanently for localhost/interlinklogistics.co.uk/?p=10604
+00:04:49	Warning: 	File has moved from localhost/interlinklogistics.co.uk/?p=10604 to http://localhost/interlinklogistics.co.uk/instant-quote/
+00:04:49	Warning: 	Moved Permanently for localhost/interlinklogistics.co.uk/?p=10319
+00:04:49	Warning: 	File has moved from localhost/interlinklogistics.co.uk/?p=10319 to http://localhost/interlinklogistics.co.uk/faq-same-day-services/
+00:04:49	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link https://stats.wp.com/s-202317.js (from localhost/interlinklogistics.co.uk/)
+00:04:49	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link stats.wp.com/w.js?ver=202317 (from localhost/interlinklogistics.co.uk/)
+00:04:51	Error: 	"Not Found" (404) at link localhost/interlinklogistics.co.uk/wp-content/plugins/transitquote-pro/public/css/images/ui-icons_777777_256x240.png (from localhost/interlinklogistics.co.uk/wp-content/plugins/transitquote-pro/public/css/jquery-ui.css?ver=4.5.2)
+00:04:51	Error: 	"Not Found" (404) at link localhost/interlinklogistics.co.uk/wp-content/plugins/transitquote-pro/public/css/images/ui-icons_555555_256x240.png (from localhost/interlinklogistics.co.uk/wp-content/plugins/transitquote-pro/public/css/jquery-ui.css?ver=4.5.2)
+00:04:53	Error: 	"Not Found" (404) at link localhost/interlinklogistics.co.uk/wp-content/plugins/transitquote-pro/public/css/images/ui-icons_ffffff_256x240.png (from localhost/interlinklogistics.co.uk/wp-content/plugins/transitquote-pro/public/css/jquery-ui.css?ver=4.5.2)
+00:04:53	Error: 	"Not Found" (404) at link localhost/interlinklogistics.co.uk/wp-content/plugins/transitquote-pro/public/css/images/ui-icons_777620_256x240.png (from localhost/interlinklogistics.co.uk/wp-content/plugins/transitquote-pro/public/css/jquery-ui.css?ver=4.5.2)
+00:04:53	Error: 	"Not Found" (404) at link localhost/interlinklogistics.co.uk/wp-content/plugins/transitquote-pro/public/css/images/ui-icons_cc0000_256x240.png (from localhost/interlinklogistics.co.uk/wp-content/plugins/transitquote-pro/public/css/jquery-ui.css?ver=4.5.2)
+00:04:53	Error: 	"Unable to get server's address: unknown error" (-5) after 2 retries at link https://stats.wp.com/s-202317.js (from localhost/interlinklogistics.co.uk/)
+00:04:53	Error: 	"Unable to get server's address: unknown error" (-5) after 2 retries at link stats.wp.com/w.js?ver=202317 (from localhost/interlinklogistics.co.uk/)
 
-HTTrack Website Copier/3.49-2 mirror complete in 4 minutes 12 seconds : 290 links scanned, 264 files written (14548652 bytes overall), 29 files updated [6964214 bytes received at 27635 bytes/sec], 71119 bytes transferred using HTTP compression in 3 files, ratio 33%, 3.2 requests per connection
+HTTrack Website Copier/3.49-2 mirror complete in 5 minutes 17 seconds : 279 links scanned, 253 files written (15864444 bytes overall), 28 files updated [6978954 bytes received at 22015 bytes/sec], 71119 bytes transferred using HTTP compression in 3 files, ratio 33%, 3.0 requests per connection
 (8 errors, 30 warnings, 0 messages)

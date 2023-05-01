@@ -1,0 +1,167 @@
+/***************** Reserved CSS Rules ***************
+Please do not change or override these rules 
+If an element already has one of these classes,
+please add a new class and use that for any changes.
+Feel free to use them for the intended purpose
+****************************************************/
+.tq-form .left {
+    float: left;
+}
+.tq-form .right {
+    float: right;
+}
+.tq-form  .text-left {
+    text-align: left;
+}
+.tq-form .text-right {
+    text-align: right;
+}
+.tq-form .text-center {
+    text-align: center;
+}
+.tq-form .half {
+    width: 49%;
+}
+.tq-form .hidden {
+    display: none;
+}
+.tq-form .inline-block {
+    display: inline-block;
+}
+.tq-form .inline{
+    display: inline;
+}
+
+.tq-form .tq-row {
+    clear: left;
+    float: left;
+    display: block;
+    width: 100%;
+}
+.tq-form .map-ctr{
+    clear: left;
+    display: block;
+}
+.tq-form .gm-style .gm-style-iw .pop-up{
+    color: #333;
+} 
+.tq-form .capitalize {
+    text-transform: capitalize;
+}
+.tq-route-information ul {
+    list-style: none;
+    list-style-type: none;
+}
+.tq-form .tq-form-checkbox-label{
+    margin-bottom: 0;
+}
+.tq-form .tq-form-checkbox {
+    transform: scale(1.5);
+    float: left;
+    margin-right: 0.5em;
+    margin-top: 0.5em;
+}
+/************************* Reserved CSS Classes ***********************
+Never use these classes for styling!! They are for use by jQuery code
+They should only appear as demonstrated in the html snippets
+Add a new class if the same element needs styling
+********************************************************************/
+.tq-form-fields-container{
+    /* used to make sections appear and dissapear */
+}
+.address-wrap{
+    /* used to dynamically copy sections and append Remove Destination links */
+}
+.no-address {
+    /* used for click method of no address link */
+}
+.feedback {
+    /* used to contain map feedback messages and also to hide and show the messages */
+}
+.tq-form button.confirm-pos-btn{
+    margin-top: 0.5em;
+}
+
+/** the styles below can be overridden in required **/
+div.tq-pro-rates-list {
+    width: 100% !important;
+    max-width: 100% !important;
+}
+div.rates-list {
+    display: inline-block;
+    float: left;
+    border: solid black 1px;
+    margin-left: 1em;
+    margin-bottom: 1em;
+    padding: 1em;
+}
+
+.rates-list table {
+    border-collapse: collapse;
+}
+.rates-list table th,
+.rates-list table td {
+    border: solid 1px;
+    padding: 0.25em;
+}
+
+
+.tq-form legend {
+    border-bottom: none;
+}
+
+.tq-form .progress {
+    background: transparent;
+    background-image: none;
+    box-shadow: none;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    clear:  both;
+    height: 8em;
+    margin-bottom: 2em;
+}
+.tq-form .progress h2,
+.tq-form .progress p {
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    clear:  both;
+}
+.tq-form .tq-feedback {
+    padding: 0em 1em;
+    color: #F22;
+}
+.entry-content li.picker__list-item {
+    margin: 0;
+}
+.entry-content li.picker__list-item {
+    margin: 0;
+}
+.site-header.header-fixed {
+    position: relative !important;
+}
+
+.entry-content .tq-email-preview br,
+.tq-email-preview br {
+    margin: 0;
+    padding: 0;
+}
+.entry-content .tq-email-preview,
+.tq-email-preview { 
+    text-align: left;
+    background: #eee;
+    padding: 2em;
+    font-size: 16px;
+    font-family: courier;
+    color: #000;
+    font-weight: bold;
+}
+
+@media screen and (max-width:767px) {
+    .tq-form .half {
+        display: block;
+        width: 100%;
+    }
+}
